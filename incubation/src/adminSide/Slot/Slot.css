@@ -1,0 +1,38 @@
+.ParentSlot{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.slot{
+    background-color: green;
+    width: 220px;
+    height: 220px;
+    display: grid;
+}
+.slot1{
+    background-color: red;
+    width: 220px;
+    height: 220px;
+    display: grid;
+}
+
+#buttonSlot{
+    height:auto;
+    width: 150px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+dropdown{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+

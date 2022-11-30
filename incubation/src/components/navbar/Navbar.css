@@ -1,0 +1,74 @@
+
+.parentNav{
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: center;
+    color: white;
+    background-image:linear-gradient(79deg,#7439db,#c66fbc 48%,#f79440);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid white;
+    /* z-index: 1; */
+}
+.left-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.registerbtn{
+    margin-left: 2rem;
+    padding: 8px !important;
+    height: 31px;
+    margin-top: 0rem;
+    background-image:linear-gradient(79deg,#b699e9,#df6cd1 48%); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    /* border: 1px solid white; */
+  }
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 16px;
+     background-image:linear-gradient(79deg,#b699e9,#df6cd1 60%);
+    font-family: inherit;
+    margin:10px 25px;
+  }
+  .dropdown:hover .dropbtn {
+    background-image:linear-gradient(79deg,#7439db,#c66fbc);
+  }
+  .dropdown-content {
+    display: none;
+    padding: 1rem;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width:auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content button {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    min-width:120px;
+    text-align:center;
+    background-color: white;
+  }
+  
+  .dropdown-content button:hover {
+    background-color: rgba(221, 221, 221, 0.76);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

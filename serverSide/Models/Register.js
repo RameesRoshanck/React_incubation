@@ -1,0 +1,69 @@
+const mongoose=require('mongoose')
+
+const RegisterSchema=mongoose.Schema({
+    id:{
+        type:Number,
+        primaryKey: true,
+        autoIncrement: true
+    },
+ surename:{
+        type:String,
+        required:true
+    },
+    address:{
+        type:String,
+        required:true
+    },
+    city:{
+        type:String,
+        required:true
+    },
+    state:{
+        type:String,
+        required:true
+    },
+    email:{
+        type:String,
+        required:true
+    },
+    phone:{
+        type:Number,
+        required:true
+    },
+    companyName:{
+        type:String,
+        required:true
+    },
+    description:{
+        type:String,
+        required:true
+    },
+    solution:{
+        type:String,
+        required:true
+    },
+    marketSize:{
+        type:String,
+        required:true
+    },
+    productMarket:{
+        type:String,
+        required:true
+    },
+    details:{
+        type:String,
+        required:true
+    },
+    status:{
+        type:String
+    },
+    state:{
+        type:String
+    },
+    createdAt:{
+        type:Date,
+        default:Date.now()
+    }
+})
+
+module.exports=mongoose.model('details',RegisterSchema)
